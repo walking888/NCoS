@@ -3,7 +3,12 @@ Contact us: liusicheng888@gmail.com
 
 This project is a network coding framework over software-defined network. There are two part of the work: a controller (pox-0.2.0-modified), a switch module (openvswitch-1.9.0-modified). We have add "group management", "topology service", "statistics service", "buffer management", "multipath multicast routing", "flow entry generation" modules in the controller to manage network coding. We also add coding function in openvswitch. For fast add consistent action in both controller and switch, we write a tool: action\_add.
 
-In order to run the test, we use mininet 2.0.0 as the test bed and write a simple script topo-butterfly.py (Because we do not add or change any code on mininet, readers can download it yourself at: git://github.com/mininet/mininet). Also we modified iperf as the receiver and the sender. The modified iperf receiver will send report to controller and these report can be collected by our pox controller for further analysis. 
+In order to run the test, we use mininet 2.0.0 as the test bed and write a simple script topo-butterfly.py (Because we do not add or change any code on mininet, readers can download it yourself at: git://github.com/mininet/mininet). Also we modified iperf as the receiver and the sender. The modified iperf receiver will send report to controller and these report can be collected by our pox controller for further analysis.
+
+0. how to download submodule iperf-modified and pox-0.2.0-modified-ext-multicast
+    In project path, use command:
+        git submodule init
+        git submodule update
 
 1. openvswitch-1.9.0-modified
     We have change or add the file below:
