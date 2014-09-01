@@ -1,0 +1,1 @@
+cmd_/home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.o := ld -m elf_x86_64   -r -o /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.o /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/genetlink-brcompat.o /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat_main.o 

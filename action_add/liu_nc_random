@@ -1,0 +1,31 @@
+new init_coding
+{
+vector_off  1
+buffer_id   1
+packet_num  1
+port_num    1
+packet_len  2
+outports    port_num*2
+}
+
+new encode
+{
+buffer_id   1
+port_num    1
+port_id     2
+buffer_size 2
+output_port 2
+packet_len  2
+packet_num  2
+}
+
+new decode
+{
+buffer_id   1
+packet_num  1
+output_num  2
+packet_len  2
+port_id     2
+buffer_size 2
+outports    output_num*2
+}

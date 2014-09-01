@@ -1,0 +1,1 @@
+cmd_/home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-23-generic/scripts/module-common.lds --build-id  -o /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.ko /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.o /home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.mod.o

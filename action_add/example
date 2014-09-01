@@ -1,0 +1,16 @@
+# this is an example file of new network coding action
+new action_name
+{
+# here is action information structure
+# first is value_name , then is value_size
+# value size have two forms:
+# first is a num now we just support 1,2,4,8, here means bytes
+# second is a value_name*num, no space here, max len is 3
+#    last num must be a static num indicate the size of the value
+#    value_name here must be easy value_name that have a static num
+value_name1 4
+value_name2 8
+value_name3 value_name1*4
+# this means the number of size of 1 * value_name1 blocks is value_name2 
+value_name4 value_name1*value_name2*1
+}

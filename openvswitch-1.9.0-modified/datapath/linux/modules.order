@@ -1,0 +1,2 @@
+kernel//home/lsch/mytest/openvswitch-1.9.0/datapath/linux/openvswitch.ko
+kernel//home/lsch/mytest/openvswitch-1.9.0/datapath/linux/brcompat.ko
