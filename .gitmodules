@@ -1,0 +1,6 @@
+[submodule "iperf-modified"]
+	path = iperf-modified
+	url = https://github.com/walking888/iperf-modified.git
+[submodule "pox-0.2.0-modified-ext-multicast"]
+	path = pox-0.2.0-modified-ext-multicast
+	url = https://github.com/walking888/pox-0.2.0-modified-ext-multicast

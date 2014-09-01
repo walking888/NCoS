@@ -22,7 +22,7 @@ In order to run the test, we use mininet 2.0.0 as the test bed and write a simpl
     \pox\lib\packet\    igmp.py udp.py ipv4.py
     \pox\openflow\      topology.py libopenflow_01.py nc.py
 
-    Other modules described in our paper is in \ext\multicast\.
+    Other modules described in our paper is in \ext\multicast\. Because we donot change the git history of original pox, so we put our modified files in path: \replace-pox-0.2.0\.
 
     How to use our pox controller is shown in \ext\multicast\README. Here topo-butterfly.py is on the file list as an mininet script example.
 
